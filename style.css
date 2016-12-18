@@ -53,7 +53,11 @@ li:hover{
 #first{
 	margin-left: 9%;
 }
-.h2{
+.sites{
+	width: 100%;
+	height: 100%;
+}
+.sitescaption{
 	margin-left: 0px;
 	height: 50px;
 	margin-top: 25px;
@@ -64,16 +68,16 @@ li:hover{
 }
 .sites div{
 	float: left;
-	margin-left: 80px;
+	margin-left: 70px;
 	margin-top: 35px;
+  margin-bottom: 50px;
 	height: 300px;
 	width: 350px;
 	padding-top: 25px;
 	color: black;
 }
 .sites div:hover{
-	border-radius: 20px;
-	border: 3px solid forestgreen;
+  background-color: rgba(50,205,50,0.7);
 }
 .sites h2{
 	font-family: Georgia;
@@ -92,4 +96,43 @@ li:hover{
 }
 .sites img{
 	margin-left: 25px;
+}
+.videos{
+  float: left;
+	margin-left: 0px;
+	margin-top: 35px;
+	width: 100%;
+	height: 100%;
+	padding-top: 25px;
+	color: black;
+	
+}
+.videocaption{
+	border-top:   5px solid #32CD32;
+	border-bottom:  5px solid #32CD32;
+	padding-top: 20px;
+	height: 50px;	
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Georgia;
+}
+.videos div{
+	float: left;
+	margin-left: 70px;
+	margin-top: 35px;
+  margin-bottom: 50px;
+	height: 300px;
+	width: 350px;
+	padding-top: 25px;
+	color: black;
+	text-align: center;
+}
+.videos div:hover{
+  background-color: rgba(50,205,50,0.7);
+}
+.videos h2{
+	font-family: Georgia;
+	text-align: center;
+	position: relative;
+	left: 0px;
 }
