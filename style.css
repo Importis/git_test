@@ -1,0 +1,95 @@
+.bg{
+		background-image: url(Images/pexels-photo-24289.jpg);
+		background-size: cover;
+		height: 768px;
+		margin: -8px;
+		border-bottom:  5px solid #32CD32;
+}
+.header{
+	margin: 0 auto;
+	width: 250px;
+	height: 80px;
+}
+.header h1{
+	font-family: Georgia;
+	text-transform: uppercase;
+	margin: 0px;
+}
+.header h4{
+	font-family: Arial;
+	margin-left: 0px;
+	opacity: 0.5;
+	width: 300px;
+	margin-top: 5px;
+}
+.menu{
+	border-bottom:  3px solid #32CD32;
+	border-top:   3px solid #32CD32;
+	height: 60px;
+	margin-bottom: : 10px;
+}	
+ul{
+	list-style-type: none;
+	padding-left: 0px;
+	margin-top: 10px;
+}
+li{
+	float: left;
+	background-color: #32CD32;
+	width:15%;
+	margin-left: 15px;
+	height: 35px;
+	text-transform: uppercase;
+	text-align: center;	
+	opacity: 0.9;
+	border-radius: 10px;
+	border: 2px solid forestgreen;
+	color: #fff;
+}
+li:hover{
+	background-color: #00FF00;
+	float: left;
+}
+#first{
+	margin-left: 9%;
+}
+.h2{
+	margin-left: 0px;
+	height: 50px;
+	margin-top: 25px;
+	text-transform: uppercase;
+	font-family: Georgia;
+	border-bottom:  5px solid #32CD32;
+	text-align: center;
+}
+.sites div{
+	float: left;
+	margin-left: 80px;
+	margin-top: 35px;
+	height: 300px;
+	width: 350px;
+	padding-top: 25px;
+	color: black;
+}
+.sites div:hover{
+	border-radius: 20px;
+	border: 3px solid forestgreen;
+}
+.sites h2{
+	font-family: Georgia;
+	text-align: center;
+	position: relative;
+	left: 0px;
+}
+.sites p{
+	text-align: center;
+	font-family: Arial;
+	position: relative;
+	left: 0px;
+}
+.firstsite{
+	margin-left: 50px;
+}
+.sites img{
+	margin-left: 25px;
+}
